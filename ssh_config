@@ -1,0 +1,3 @@
+Host jpn-zaq*
+   StrictHostKeyChecking no
+   UserKnownHostsFile=/dev/null
