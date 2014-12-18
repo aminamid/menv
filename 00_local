@@ -1,0 +1,8 @@
+export MYBASE='usr'
+
+export LOCALBASE=${HOME}/${MYBASE}/local
+
+export GOROOT=${LOCALBASE}/go
+export PATH=${PATH}:${GOROOT}/bin
+
+

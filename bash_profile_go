@@ -1,0 +1,8 @@
+export LOCALDIR_MINE='local'
+
+export PATH=$PATH:$HOME/$LOCALDIR_MINE/bin
+
+export GOROOT=$HOME/$LOCALDIR_MINE/go
+export PATH=$PATH:$GOROOT/bin
+
+eval "$(direnv hook bash)"
