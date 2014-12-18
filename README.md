@@ -4,6 +4,7 @@
 ```
 . 00_local
 ./01_go.sh
+./02_hub.sh
 ./02_direnv.sh
 ./03_virtualenv.sh
 ./04_gitignore_global.sh
