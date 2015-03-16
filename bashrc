@@ -20,10 +20,10 @@ alias z50v1='ssh root@jpn-zaq50-v1.openwave.com'
 alias z50v2='ssh root@jpn-zaq50-v2.openwave.com'
 alias z50v3='ssh root@jpn-zaq50-v3.openwave.com'
 
-alias tmn='tmux new -s $USER'
-alias tmls='tmux ls'
-alias tmd='tmux detach'
-alias tma='tmux a -t '
+alias tmn='TERM=screen-256color-bce tmux new -s $USER'
+alias tmls='TERM=screen-256color-bce tmux ls'
+alias tmd='TERM=screen-256color-bce tmux detach'
+alias tma='TERM=screen-256color-bce tmux a -t '
 
 auto_cdls()
 {
