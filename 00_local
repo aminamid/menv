@@ -1,9 +1,7 @@
 export MYBASE='usr'
 
 export LOCALBASE=${HOME}/${MYBASE}/local
-export PATH=${PATH}:${LOCALBASE}/bin
+export PATH=${LOCALBASE}/bin:${PATH}
 
 export GOROOT=${LOCALBASE}/go
-export PATH=${PATH}:${GOROOT}/bin
-
-
+export PATH=${GOROOT}/bin:${PATH}
